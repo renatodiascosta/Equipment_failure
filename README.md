@@ -1,20 +1,20 @@
 # Predicting failure of an oil & gas extraction equipment
 
-The data used in this project was provided by [Shape digital](https://www.shapedigital.com/).
+The data used in this project is based on a real case scenario and was provided by [Shape digital](https://www.shapedigital.com/).
 
 ## How the equipment works
 
-An FPSO is a floating production system that receives fluids (crude oil, water and a host of other things) from a subsea reservoir through risers, which then separate fluids into crude oil, natural gas, water and impurities within the topsides production facilities onboard. Crude oil stored in the storage tanks of the FPSO is offloaded onto shuttle tankers to go to market or for further refining onshore.
+An FPSO (Floating Production Storage and Offloading) is a floating production system that receives fluids (crude oil, water and a host of other things) from a subsea reservoir through risers, which then separate fluids into crude oil, natural gas, water and impurities within the topsides production facilities onboard. Crude oil stored in the storage tanks of the FPSO is offloaded onto shuttle tankers to go to market or for further refining onshore.
 
-<img src="https://github.com/renatodiascosta/equipment_failure/blob/main/FPSO.jpg" 
-     width="900" 
-     height="450" />
+![](https://github.com/renatodiascosta/equipment_failure/blob/main/FPSO.jpg)
 
 ## Describing the problem
 
-The FPSO is monitored by sensors that measure different parameters of the equipment, such as temperature pressure etc. in different setup configurations. The setup configurations are represented by variables Preset_1 and preset_2. 
+In order to avoid equipment failure, the FPSO is monitored by sensors measuring different parameters, such as temperature, pressure, vibration and frequency, in different setup configurations.
 
-Our provlWe investigate one piece of equipment in different time cycles to understand what characteristics and parameters of the sensors might indicate that the equipment is on the verge of failing. 
+The setup configuration are encoded by two variables, namely ```Preset_1``` and ```Preset_2```, while the measured parameters are ```Temperature```, ```Pressure```, ```VibrationX```, ```VibrationY```, ```VibrationZ``` and ```Frequency```.
+
+Our problem is to investigate one piece of equipment in different time cycles to understand what setup configurations and parameters of the sensors might indicate that the equipment is on the verge of failing. 
 
 ## Defining tasks
 
