@@ -1,6 +1,6 @@
 # Predicting failure of an oil & gas extraction equipment
 
-The data used in this project is based on a real case scenario and was provided by [Shape digital](https://www.shapedigital.com/).
+The data in this repository is based on a real case scenario and was provided by [Shape digital](https://www.shapedigital.com/).
 
 ## How the equipment works
 
@@ -25,3 +25,5 @@ Based on the given dataset, we set the following tasks:
 3. Categorize equipment failures by their nature/root cause according to parameter readings (temperature, pressure, and others).
 4. Create a model to predict equipment failule and measure its performance.
 5. Analyze variable importance. 
+
+We address each task seperately and conclude with some final remarks.
